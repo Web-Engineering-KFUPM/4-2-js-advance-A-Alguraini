@@ -53,6 +53,17 @@ Task:
 2) Iterate over it with for...in and display each key and value.
 */
 
+const courseMap = {
+  COE292: "Introduction to Artificial Intelligence",
+  ENGL214: "Academic and Professional Communication",
+  SWE216: "Software Requirements Engineering",
+  SWE363: "Web Engineering and Development"
+};
+for (const code in courseMap) {
+  console.log(code, "→", courseMap[code]);
+}
+// This is TODO-2
+
 // =========================================
 // TODO-3: STRING OBJECT — charAt() & length
 // =========================================
