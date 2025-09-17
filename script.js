@@ -77,6 +77,7 @@ const title = "Week4 Lab";
 console.log("First char:", title.charAt(0));
 console.log("Last char:", title.charAt(title.length - 1));
 console.log("Length:", title.length);
+// This is TODO-3
 
 // ===================================
 // TODO-4: DATE — day, month, and year
@@ -87,6 +88,14 @@ Task:
 2) Find and display the current day of month, month (0–11), and year.
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
+
+const now = new Date();
+console.log("Day:", now.getDate(),
+ "Month(0–11):", now.getMonth(),
+  "Year:", now.getFullYear());
+
+// This is TODO-4
+
 
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
