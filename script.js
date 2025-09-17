@@ -73,6 +73,11 @@ Task:
 2) Use .charAt(index) and .length to output characters and size.
 */
 
+const title = "Week4 Lab";
+console.log("First char:", title.charAt(0));
+console.log("Last char:", title.charAt(title.length - 1));
+console.log("Length:", title.length);
+
 // ===================================
 // TODO-4: DATE — day, month, and year
 // ===================================
