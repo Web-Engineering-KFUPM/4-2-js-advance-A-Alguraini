@@ -123,6 +123,23 @@ Task:
    in each block so you can see the flow of control.
 */
 
+function maxOfNonEmpty(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) {
+    throw new Error("Expected a non-empty array");
+  }
+  return arr.reduce((a, b) => (a > b ? a : b));
+}
+try {
+  console.log("Max of [3, 8, 2]:", maxOfNonEmpty([3, 8, 2]));
+  console.log("Max of []:", maxOfNonEmpty([]));
+} catch (e) {
+  console.log("Caught error:", e.message);
+} finally {
+  console.log("Finished try/catch/finally demo.");
+}
+
+// This is TODO-6
+
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
 // ===================================================================================
