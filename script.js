@@ -106,6 +106,11 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
+const numbers = [42, 7, 13, 99, -5, 0, 18, 73, 22, 56];
+console.log("Array:", numbers);
+console.log("Min:", Math.min(...numbers), "Max:", Math.max(...numbers));
+
+// This is TODO-5
 
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
